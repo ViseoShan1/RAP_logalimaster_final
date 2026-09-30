@@ -84,7 +84,7 @@ CLASS zcl_preload_data_0145 IMPLEMENTATION.
         email = 'aitor.martin@viseo.com'
         firstname = 'Aitor'
         lastname = 'Martin'
-        country = 'Spain'
+        country = 'España'
         local_created_by = |{ cl_abap_context_info=>get_user_technical_name( ) }|
         createon = |{ cl_abap_context_info=>get_system_date( ) }|
         deliverydate = |{ cl_abap_context_info=>get_system_date( ) }|
