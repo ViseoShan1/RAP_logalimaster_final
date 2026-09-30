@@ -1,0 +1,7 @@
+@EndUserText.label: 'Sales order def'
+define service ZSB_ORDERS_0145 {
+  expose ZC_HEADER_0145;
+  expose ZC_ITEMS_0145;
+  expose ZC_ORDER_STATUS_0145;
+  expose I_Currency;
+}
